@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Laning With TailWinds</title>
 </head>
 
 <body>
     <!-- navbar start -->
-    <div class="container mx-auto bg-gray-100 mt-4 rounded-xl ">
+
+    <div class="md:container mx-auto bg-gray-100 mt-4 rounded-xl ">
         <nav class="flex items-center justify-between">
             <div>
                 <a href="/">
@@ -59,8 +61,8 @@
             </button>
         </nav>
 
-        <div class="mobile_menu hidden md:hidden ">
-            <ul class="flex-col space-y-4 text-center ">
+        <div class="mobile_menu hidden md:hidden">
+            <ul class="flex-col space-y-4 text-center  animate__animated animate__heartBeat ">
                 <li>
                     <a href="#" class="text-gray-900 hover:text-green-700 cursor-pointer">
                         Projects
@@ -163,7 +165,7 @@
             </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-2 mx-32 mt-12">
+        <div class="grid  lg:grid-cols-3 gap-2 justify-center lg:mx-32 mt-12">
             <div class="bg-gray-100 rounded-3xl w-80 mt-14 hover:shadow-2xl cursor-pointer marker: text-center">
                 <h1 class="text-blue-900 text-4xl mt-2">$199</h1>
                 <h2 class="text-blue-500 mb-3 mt-4">Basic</h2>
@@ -334,7 +336,7 @@
             <h2 class="capitalize">recent updates</h2>
             <h1 class="text-5xl text-blue-600 capitalize">featured stories</h1>
         </div>
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-3  mx-32 mt-2">
+        <div class="grid justify-center lg:grid-cols-3 gap-3  md:mx-32 mt-2">
             <div class="bg-gray-100 rounded-3xl w-80 mt-14 hover:shadow-2xl cursor-pointer marker: text-center">
                 <img src="./src/assets/images/feat1.svg" class="mx-auto mt-4 w-3/4 h-1/3" alt="feat1" />
                 <h1 class="text-3xl text-blue-600 mt-4 capitalize">remote working</h1>
@@ -358,8 +360,7 @@
                     consequatur tenetur nemo recusandae accusantium voluptatum beatae
                     provident, et repellendus. Fugiat ducimus earum praesentium et est
                 </p>
-                <button
-                    class="text-white bg-blue-300 mt-8 mb-4 capitalize px-6 py-4 hover:bg-red-300 hover:text-white rounded-3xl">
+                <button class="text-white bg-red-500 mt-8 mb-4 capitalize px-6 py-4 hover:text-white rounded-3xl">
                     read more
                 </button>
             </div>
@@ -374,7 +375,7 @@
                     provident, et repellendus. Fugiat ducimus earum praesentium et est
                 </p>
                 <button
-                    class="text-blue-400 mt-8 mb-4 capitalize px-6 py-4 hover:bg-red-300 hover:text-white rounded-3xl">
+                    class="text-blue-400 mt-8 mb-16 capitalize px-6 py-4 hover:bg-red-300 hover:text-white rounded-3xl">
                     read more
                 </button>
             </div>
@@ -390,7 +391,7 @@
                 <p class="text-gray-600 text-xl text-center mb-12">Lorenzo Code</p>
             </div>
             <!-- 50% -->
-            <div class="md:w-1/2 flex space-x-24 justify-center">
+            <div class="md:w-1/2 flex space-x-8 md:space-x-24 justify-center">
                 <div>
                     <h3 class="font-bold text-gray-500">Links</h3>
                     <ul class="text-gray-400 mt-4 space-y-5">
@@ -420,7 +421,7 @@
                 </div>
             </div>
             <!-- 25% -->
-            <div class="md:w-1/4 flex space-x-8 justify-center mt-8 md:justify-end">
+            <div class="md:w-1/4 flex space-x-8 justify-center mt-8 lg:justify-end">
                 <button>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook-filled"
                         width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="blue" fill="none"
