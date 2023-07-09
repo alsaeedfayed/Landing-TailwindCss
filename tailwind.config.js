@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     extend: {
+      
       spacing : {
         // 1 rem = 4px
         '112' : '28rem',
